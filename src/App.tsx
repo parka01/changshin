@@ -87,6 +87,18 @@ function App() {
           </li>
           <li>
             <div className="date">
+              <h3>2024.06</h3>
+            </div>
+            <div className="content">
+              <h3>SQL 개발자 취득</h3>
+              <p>
+                데이터베이스에 대한 기본적인 이해가 있으며 이를 화면에
+                시각적으로 구현할 수 있습니다.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div className="date">
               <h3>2016- 2017</h3>
             </div>
             <div className="content">
