@@ -5,6 +5,19 @@ import profile from './assets/images/profile.jpg';
 import logo from './assets/images/logo.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { SwiperContainer } from 'swiper/element';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Pagination } from 'swiper/modules';
+import htmlIcon from './assets/images/icon_html.png';
+import cssIcon from './assets/images/icon_css.png';
+import jsIcon from './assets/images/icon_js.png';
+import photoshopIcon from './assets/images/icon_photoshop.png';
+import illustratorIcon from './assets/images/icon_illustrator.png';
+import premiereIcon from './assets/images/icon_premiere.png';
+import chatGPTIcon from './assets/images/icon_chatgpt.png';
+import inDesignIcon from './assets/images/icon_indesign.png';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -182,7 +195,199 @@ function App() {
           </div>
         </div>
       </section>
-      <section id="portfolio"></section>
+      <section id="portfolio">
+        <section
+          id="section-video-project"
+          data-aos="fade-right"
+          data-aos-duration="3000"
+        >
+          <h1 className="txt-40">Video works</h1>
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={10}
+            pagination={{
+              clickable: true,
+            }}
+            breakpoints={{
+              640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 2,
+                spaceBetween: 50,
+              },
+            }}
+            modules={[Pagination]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-video">
+                  <video
+                    src="./videos/video_work_01.mp4"
+                    autoPlay
+                    loop
+                    muted
+                  ></video>
+                </div>
+                <div className="swiper-description">
+                  <div>
+                    <h3>부산시청 온라인 교육영상</h3>
+                    <p>기획, 대본 작성, 진행, 촬영, 편집 총 20화 제작</p>
+                  </div>
+                  <ul className="list-icon">
+                    <li>
+                      <img src={premiereIcon} alt="html icon image" />
+                    </li>
+                    <li>
+                      <img src={illustratorIcon} alt="html icon image" />
+                    </li>
+                    <li>
+                      <img src={photoshopIcon} alt="css icon image" />
+                    </li>
+                    <li>
+                      <img src={chatGPTIcon} alt="chatgpt icon image" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-video">
+                  <video
+                    src="./videos/video_work_02.mp4"
+                    autoPlay
+                    loop
+                    muted
+                  ></video>
+                </div>
+                <div className="swiper-description">
+                  <div>
+                    <h3>부산시청 온라인 교육영상</h3>
+                    <p>기획, 대본 작성, 진행, 촬영, 편집 총 20화 제작</p>
+                  </div>
+                  <ul className="list-icon">
+                    <li>
+                      <img src={premiereIcon} alt="html icon image" />
+                    </li>
+                    <li>
+                      <img src={illustratorIcon} alt="html icon image" />
+                    </li>
+                    <li>
+                      <img src={photoshopIcon} alt="css icon image" />
+                    </li>
+                    <li>
+                      <img src={chatGPTIcon} alt="chatgpt icon image" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-video">
+                  <video
+                    src="./videos/video_work_03.mp4"
+                    autoPlay
+                    loop
+                    muted
+                  ></video>
+                </div>
+                <div className="swiper-description">
+                  <div>
+                    <h3>부산시청 온라인 교육영상</h3>
+                    <p>기획, 대본 작성, 진행, 촬영, 편집 총 20화 제작</p>
+                  </div>
+                  <ul className="list-icon">
+                    <li>
+                      <img src={premiereIcon} alt="html icon image" />
+                    </li>
+                    <li>
+                      <img src={illustratorIcon} alt="html icon image" />
+                    </li>
+                    <li>
+                      <img src={photoshopIcon} alt="css icon image" />
+                    </li>
+                    <li>
+                      <img src={chatGPTIcon} alt="chatgpt icon image" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-video">
+                  <video
+                    src="./videos/video_work_04.mp4"
+                    autoPlay
+                    loop
+                    muted
+                  ></video>
+                </div>
+                <div className="swiper-description">
+                  <div>
+                    <h3>부산시청 온라인 교육영상</h3>
+                    <p>기획, 대본 작성, 진행, 촬영, 편집 총 20화 제작</p>
+                  </div>
+                  <ul className="list-icon">
+                    <li>
+                      <img src={premiereIcon} alt="html icon image" />
+                    </li>
+                    <li>
+                      <img src={illustratorIcon} alt="html icon image" />
+                    </li>
+                    <li>
+                      <img src={photoshopIcon} alt="css icon image" />
+                    </li>
+                    <li>
+                      <img src={chatGPTIcon} alt="chatgpt icon image" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-video">
+                  <video
+                    src="./videos/video_work_05.mp4"
+                    autoPlay
+                    loop
+                    muted
+                  ></video>
+                </div>
+                <div className="swiper-description">
+                  <div>
+                    <h3>부산시청 온라인 교육영상</h3>
+                    <p>기획, 대본 작성, 진행, 촬영, 편집 총 20화 제작</p>
+                  </div>
+                  <ul className="list-icon">
+                    <li>
+                      <img src={premiereIcon} alt="html icon image" />
+                    </li>
+                    <li>
+                      <img src={illustratorIcon} alt="html icon image" />
+                    </li>
+                    <li>
+                      <img src={photoshopIcon} alt="css icon image" />
+                    </li>
+                    <li>
+                      <img src={chatGPTIcon} alt="chatgpt icon image" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </section>
+      </section>
       <section id="contact"></section>
     </main>
   );
