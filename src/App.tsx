@@ -8,15 +8,12 @@ import 'aos/dist/aos.css';
 
 function App() {
   const [count, setCount] = useState(0);
-
   useEffect(() => {
     AOS.init({
-      // Global settings:
-      duration: 1000, // Animation duration in milliseconds
-      once: false, // Whether animation should happen only once - while scrolling down
+      duration: 1000,
+      once: true,
     });
   }, []);
-
   return (
     <main id="wrap-main">
       <div id="background"></div>
