@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      once: true,
+      once: false,
     });
   }, []);
   return (
@@ -36,10 +36,7 @@ function App() {
         </nav>
       </header>
       <section id="profile">
-        <div className="profile-photo">
-          <img src={profile} alt="profile photo" title="profile photo" />
-        </div>
-        <div className="greeting">
+        <div className="greeting" data-aos="fade-up" data-aos-duration="2000">
           <h1>
             안녕하세요,
             <br />
@@ -57,10 +54,11 @@ function App() {
         </div>
       </section>
       <section id="wrap-about">
-        <ul id="about">
-          <li>
+        <div id="about">
+          <h2>자격증</h2>
+          <div className="history">
             <div className="date">
-              <h3>2026.08</h3>
+              <h3>2026.09</h3>
             </div>
             <div className="content">
               <h3>정보처리기사 필기 합격</h3>
@@ -69,8 +67,9 @@ function App() {
                 Rhino에서 활용가능한 Python능력을 갖추고 있습니다.
               </p>
             </div>
-          </li>
-          <li>
+          </div>
+          <div className="line-break"></div>
+          <div className="history">
             <div className="date">
               <h3>2026.07</h3>
             </div>
@@ -83,8 +82,9 @@ function App() {
                 목표로 합니다.
               </p>
             </div>
-          </li>
-          <li>
+          </div>
+          <div className="line-break"></div>
+          <div className="history">
             <div className="date">
               <h3>2026.07</h3>
             </div>
@@ -95,8 +95,9 @@ function App() {
                 있습니다.
               </p>
             </div>
-          </li>
-          <li>
+          </div>
+          <div className="line-break"></div>
+          <div className="history">
             <div className="date">
               <h3>2024.06</h3>
             </div>
@@ -104,11 +105,27 @@ function App() {
               <h3>SQLD 자격증 취득</h3>
               <p>
                 데이터베이스에 대한 기본적인 이해가 있으며 빅데이터를 가공하여
-                화면에 시각적으로 구현할 수 있습니다.
+                화면에 시각적으로 구현할 수 있습니다. Rhino 3D프로그램에서
+                데이터가 필요한 경우 활용할 수 있습니다.
               </p>
             </div>
-          </li>
-          <li>
+          </div>
+          <h2>근무경험</h2>
+          <div className="history">
+            <div className="date">
+              <h3>2024</h3>
+            </div>
+            <div className="content">
+              <h3>KTcs</h3>
+              <p>
+                코딩을 가르치는 강사로 활동하였습니다. 부산광역시 온라인 교육
+                영상 진행자로 활동 및 영상편집을 하였습니다. 총 20편
+                제작하였습니다.
+              </p>
+            </div>
+          </div>
+          <div className="line-break"></div>
+          <div className="history">
             <div className="date">
               <h3>2021 - 2023</h3>
             </div>
@@ -121,8 +138,9 @@ function App() {
                 활용할 준비가 되어있습니다.
               </p>
             </div>
-          </li>
-          <li>
+          </div>
+          <div className="line-break"></div>
+          <div className="history">
             <div className="date">
               <h3>2016 - 2017</h3>
             </div>
@@ -131,11 +149,15 @@ function App() {
               <p>
                 미국 뉴욕의 신발회사에서 제품개발 부서에 소속되어 디자이너로
                 근무하였습니다. 대표적으로 Michael Kors, Tommy Hilfiger, Kennth
-                Cole등 다양한 브랜드를 맡아 제품을 개발하였습니다.
+                Cole등 다양한 브랜드를 맡아 제품을 개발하였습니다. <br />
+                <br />
+                FFANY(Fashion Footwear Association of New York)에서 주관하는
+                행사에 참석하여 고객사를 대상으로 제품에 관한 설명을 하였습니다.
               </p>
             </div>
-          </li>
-          <li>
+          </div>
+          <h2>학력사항</h2>
+          <div className="history">
             <div className="date">
               <h3>2016.05</h3>
             </div>
@@ -143,8 +165,9 @@ function App() {
               <h3>State University of New York College at Buffalo</h3>
               <p>패션 및 섬유공학을 전공하였습니다.</p>
             </div>
-          </li>
-          <li>
+          </div>
+          <div className="line-break"></div>
+          <div className="history">
             <div className="date">
               <h3>2016.05</h3>
             </div>
@@ -156,8 +179,8 @@ function App() {
                 전문적으로 배웠습니다.
               </p>
             </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </section>
       <section id="portfolio"></section>
       <section id="contact"></section>

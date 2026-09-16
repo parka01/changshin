@@ -35,6 +35,11 @@ ul {
 p {
   color: #fff;
 }
+.line-break {
+  height: 1px;
+  background: #ffffff2c;
+  margin-block: 1rem;
+}
 header {
   display: flex;
   flex-direction: column;
@@ -80,7 +85,6 @@ header {
   }
   .greeting {
     display: flex;
-    width: 50vw;
     flex-direction: column;
   }
 }
@@ -104,6 +108,11 @@ header {
   }
 }
 #about {
+  h2 {
+    margin-block: 1rem;
+  }
+  display: flex;
+  flex-direction: column;
   width: calc(100vw - 50px);
   background: #ffffff29;
   border: solid 2px #ffffff48;
@@ -111,8 +120,9 @@ header {
   margin: 3rem auto;
   padding: 40px;
   border-radius: 10px;
-  li {
+  .history {
     display: flex;
+    flex-direction: ro;
     .date {
       h3 {
         color: #aeffc2;
@@ -126,6 +136,5 @@ header {
         margin-bottom: 0.5rem;
       }
     }
-    margin-bottom: 1rem;
   }
 }
