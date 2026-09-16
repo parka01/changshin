@@ -39,7 +39,7 @@ function App() {
         <div className="profile-photo">
           <img src={profile} alt="profile photo" title="profile photo" />
         </div>
-        <div>
+        <div className="greeting">
           <h1>
             안녕하세요,
             <br />
