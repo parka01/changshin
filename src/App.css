@@ -1,3 +1,8 @@
+@font-face {
+  font-family: handwrite;
+  src: url(./assets/fonts/Cookie-Regular.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,16 +19,16 @@ ul {
 #background {
   background: linear-gradient(
     45deg,
-    #1b0040 0 40%,
-    #b000e6 50% 50%,
-    #1b0040 60% 100%
+    #0f005f 0 40%,
+    #4b50f0 50% 50%,
+    #0f005f 60% 100%
   );
   top: 0;
   left: 0;
   position: fixed;
   width: 100vw;
   height: 100vh;
-  filter: blur(10px);
+  filter: blur(20px);
   z-index: -1;
   overflow: hidden;
 }
@@ -31,12 +36,23 @@ p {
   color: #fff;
 }
 header {
+  display: flex;
+  flex-direction: column;
   padding-top: 20px;
-  position: sticky;
+  align-items: center;
+  .logo {
+    width: 100px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    img {
+      width: 100%;
+    }
+  }
 }
 #nav-gnb {
+  font-family: handwrite;
   width: calc(100vw - 50px);
-  height: 200px;
   border: solid 2px #ffffff48;
   margin: 0 auto;
   display: flex;
@@ -48,13 +64,17 @@ header {
   font-size: 20px;
   a {
     display: block;
-    padding: 10px;
+    padding: 15px;
+    font-size: 40px;
   }
 }
 #profile {
   width: calc(100vw - 50px);
   margin: 3rem auto;
   padding-inline: 40px;
+  h1 {
+    margin-block: 1rem;
+  }
 }
 .profile-photo {
   margin: 30px auto;

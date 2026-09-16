@@ -2,6 +2,7 @@ import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import './App.css';
 import profile from './assets/images/profile.jpg';
+import logo from './assets/images/logo.png';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -10,6 +11,9 @@ function App() {
     <main id="wrap-main">
       <div id="background"></div>
       <header>
+        <div className="logo">
+          <img src={logo} alt="logo" title="logo" />
+        </div>
         <nav>
           <ul id="nav-gnb">
             <li>
@@ -38,11 +42,9 @@ function App() {
         <p>
           창신을 향한 저의 열정을 소개할 소중한 기회를 주셔서 감사합니다.
           <br />
-          7년이라는 긴 시간 땅속에서 매미가 될 준비를 하는 굼벵이처럼
-          <br />
-          저는 다양한 경험과 기술을 쌓아왔습니다.
-          <br />
-          제가 쌓아온 역량들을 활용하여 창신에서 열심히 일하겠습니다.
+          7년이라는 긴 시간 땅속에서 매미가 될 준비를 하는 굼벵이처럼 다양한
+          경험과 기술을 쌓아왔습니다. 제가 쌓아온 역량들을 활용하여 창신에서
+          열심히 성장하겠습니다.
         </p>
       </section>
       <section id="wrap-about">
@@ -90,7 +92,7 @@ function App() {
               <h3>2024.06</h3>
             </div>
             <div className="content">
-              <h3>SQL 개발자 취득</h3>
+              <h3>SQLD 자격증 취득</h3>
               <p>
                 데이터베이스에 대한 기본적인 이해가 있으며 빅데이터를 가공하여
                 화면에 시각적으로 구현할 수 있습니다.
@@ -99,7 +101,21 @@ function App() {
           </li>
           <li>
             <div className="date">
-              <h3>2016- 2017</h3>
+              <h3>2021 - 2023</h3>
+            </div>
+            <div className="content">
+              <h3>개발자 경력</h3>
+              <p>
+                아주대학교 병원 및 (주)인포지아에서 개발자로 근무하여 프로그래밍
+                능력을 갖추고 있습니다. 파라메트릭 툴을 사용하는 CAD 사용시
+                필요한 Python언어를 이해하고 있기에 창신INC에서 요구사항에 맞춰
+                활용할 준비가 되어있습니다.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div className="date">
+              <h3>2016 - 2017</h3>
             </div>
             <div className="content">
               <h3>BCNY Intl.</h3>
@@ -107,6 +123,28 @@ function App() {
                 미국 뉴욕의 신발회사에서 제품개발 부서에 소속되어 디자이너로
                 근무하였습니다. 대표적으로 Michael Kors, Tommy Hilfiger, Kennth
                 Cole등 다양한 브랜드를 맡아 제품을 개발하였습니다.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div className="date">
+              <h3>2016.05</h3>
+            </div>
+            <div className="content">
+              <h3>State University of New York College at Buffalo</h3>
+              <p>패션 및 섬유공학을 전공하였습니다.</p>
+            </div>
+          </li>
+          <li>
+            <div className="date">
+              <h3>2016.05</h3>
+            </div>
+            <div className="content">
+              <h3>Fashion Institute of Technology</h3>
+              <p>
+                패션분야 세계 최고의 학교에서 액세서리학과를 졸업하였습니다.
+                발의 인체구조부터 신발디자인 및 신발 제작과정까지 폭넓은 과정을
+                전문적으로 배웠습니다.
               </p>
             </div>
           </li>
