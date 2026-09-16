@@ -1,17 +1,27 @@
-import { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import reactLogo from './assets/react.svg';
 import './App.css';
 import profile from './assets/images/profile.jpg';
 import logo from './assets/images/logo.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
   const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    AOS.init({
+      // Global settings:
+      duration: 1000, // Animation duration in milliseconds
+      once: false, // Whether animation should happen only once - while scrolling down
+    });
+  }, []);
 
   return (
     <main id="wrap-main">
       <div id="background"></div>
       <header>
-        <div className="logo">
+        <div className="logo" data-aos="fade-up" data-aos-duration="2000">
           <img src={logo} alt="logo" title="logo" />
         </div>
         <nav>
