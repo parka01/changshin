@@ -72,19 +72,26 @@ header {
   width: calc(100vw - 50px);
   margin: 3rem auto;
   padding-inline: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   h1 {
     margin-block: 1rem;
   }
 }
 .profile-photo {
-  margin: 30px auto;
+  align-content: center;
+  margin-right: 2rem;
   padding: 20px;
-  width: 200px;
-  height: 200px;
+  max-width: 200px;
+  max-height: 200px;
+  min-height: 200px;
+  aspect-ratio: 1/1;
   border-radius: 100px;
   background: #ffffff29;
   border: solid 2px #ffffff48;
   box-shadow: 5px 5px 10px #0000006f;
+
   img {
     width: 100%;
     border-radius: 100px;
