@@ -184,7 +184,7 @@ header {
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: #f1bdff;
+  background: rgb(0, 200, 245);
 }
 /* -------- SECTION VIDEO PROJECT -------- */
 #section-video-project {
@@ -302,7 +302,7 @@ header {
 
 /* -------- SECTION BRAND -------- */
 #section-brand {
-  margin-block: 300px;
+  margin-block: 200px;
   padding: 0px 200px 0px 30px;
 
   .brand-identity {
@@ -432,4 +432,30 @@ header {
 }
 .margin-block {
   margin-block: 1rem;
+}
+.swiper {
+  --swiper-pagination-bullet-inactive-color: #f9fbffb5; /* Color of the inactive bullets */
+  --swiper-pagination-bullet-inactive-opacity: 1; /* Optional: Make inactive bullets fully opaque */
+}
+.label-blue {
+  border: solid 1px dodgerblue;
+  font-size: 15px;
+  padding: 2px 5px;
+  color: dodgerblue;
+  background: #e5f1fd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.arrow-button {
+  background: #fff;
+  color: #0a093f;
+  padding: 2px 10px;
+  border-radius: 60px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.media-info a:hover .arrow-button {
+  transition: all 1s;
+  transform: translateX(10px);
 }
