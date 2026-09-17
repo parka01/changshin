@@ -202,9 +202,9 @@ header {
 }
 /* -------- SECTION CARD NEWS -------- */
 #section-card-news {
-  padding: 50px 200px 50px 30px;
-  margin-top: 200px;
-  margin-bottom: 400px;
+  padding: 50px 30px 50px 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 
   .swiper-cardnews {
     aspect-ratio: 1 / 1.3;
