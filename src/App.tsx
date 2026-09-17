@@ -40,10 +40,9 @@ import shoes8 from './assets/images/shoes8.jpg';
 import shoes9 from './assets/images/shoes9.jpg';
 import rhino1 from './assets/images/rhino1.png';
 import rhino2 from './assets/images/rhino2.png';
-import work1 from './assets/images/work1.jpg';
-import work2 from './assets/images/work2.jpg';
-import work3 from './assets/images/work3.jpg';
-import work4 from './assets/images/work4.jpg';
+import work1 from './assets/images/work1.png';
+import work2 from './assets/images/work2.png';
+import work3 from './assets/images/work3.png';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -606,14 +605,6 @@ function App() {
               <div className="swiper-item">
                 <div className="swiper-cardnews">
                   <img src={work3} alt="card news image 2" />
-                </div>
-                <div className="swiper-description"></div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="swiper-item">
-                <div className="swiper-cardnews">
-                  <img src={work4} alt="card news image 2" />
                 </div>
                 <div className="swiper-description"></div>
               </div>
