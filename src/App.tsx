@@ -40,7 +40,7 @@ import shoes8 from './assets/images/shoes8.jpg';
 import shoes9 from './assets/images/shoes9.jpg';
 import rhino1 from './assets/images/rhino1.png';
 import rhino2 from './assets/images/rhino2.png';
-import work1 from './assets/images/work1.jpg';
+// import work1 from './assets/images/work1.jpg';
 import work2 from './assets/images/work2.jpg';
 import work3 from './assets/images/work3.jpg';
 import work4 from './assets/images/work4.jpg';
@@ -580,7 +580,7 @@ function App() {
             <SwiperSlide>
               <div className="swiper-item">
                 <div className="swiper-cardnews">
-                  <img src={work1} alt="card news image 1" />
+                  {/* <img src={work1} alt="card news image 1" /> */}
                 </div>
                 <div className="swiper-description">
                   <div>
