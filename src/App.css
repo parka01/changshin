@@ -237,3 +237,46 @@ header {
     }
   }
 }
+/* -------- SECTION CONTACT -------- */
+#section-contact {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 50px;
+  background: linear-gradient(#ffffffba 0% 1%, #d3a1ffb3 50%);
+  text-align: center;
+  align-items: center;
+
+  p,
+  h2 {
+    margin-block: 10px;
+    z-index: 1;
+  }
+
+  .box-handwriting {
+    z-index: 1;
+    width: clamp(400px, calc(300px + 20vw), 700px);
+    margin-block: 3rem;
+
+    .handwriting {
+      width: 100%;
+      stroke-dasharray: 3026.421875;
+      animation: write 12s infinite linear;
+    }
+  }
+
+  .btn-contact {
+    z-index: 1;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px 40px;
+    background: #fff;
+    border-radius: 40px;
+    transition: all 1s;
+  }
+
+  .btn-contact:hover {
+    box-shadow: 5px 5px 5px #00000054;
+    transform: translate(-10px, -10px);
+    transition: all 1s;
+  }
+}
