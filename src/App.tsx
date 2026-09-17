@@ -18,6 +18,28 @@ import illustratorIcon from './assets/images/icon_illustrator.png';
 import premiereIcon from './assets/images/icon_premiere.png';
 import chatGPTIcon from './assets/images/icon_chatgpt.png';
 import inDesignIcon from './assets/images/icon_indesign.png';
+import cad1 from './assets/images/cad1.png';
+import cad2 from './assets/images/cad2.png';
+import cad3 from './assets/images/cad3.png';
+import cad4 from './assets/images/cad4.png';
+import cad5 from './assets/images/cad5.png';
+import cad6 from './assets/images/cad6.png';
+import cad7 from './assets/images/cad7.png';
+import cad8 from './assets/images/cad8.png';
+import cad9 from './assets/images/cad9.png';
+import cad10 from './assets/images/cad10.png';
+import cad11 from './assets/images/cad11.png';
+import shoes1 from './assets/images/shoes1.jpg';
+import shoes2 from './assets/images/shoes2.jpg';
+import shoes3 from './assets/images/shoes3.jpg';
+import shoes4 from './assets/images/shoes4.jpg';
+import shoes5 from './assets/images/shoes5.jpg';
+import shoes6 from './assets/images/shoes6.jpg';
+import shoes7 from './assets/images/shoes7.jpg';
+import shoes8 from './assets/images/shoes8.jpg';
+import shoes9 from './assets/images/shoes9.jpg';
+import rhino1 from './assets/images/rhino1.png';
+import rhino2 from './assets/images/rhino2.png';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -197,12 +219,322 @@ function App() {
         </div>
       </section>
       <section id="portfolio">
+        {/* ---- SECTION CARD NEWS ---- */}
+        <section
+          id="section-card-news"
+          data-aos="fade-right"
+          data-aos-duration="3000"
+        >
+          <h1 className="txt-40">Shoes works</h1>
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={10}
+            pagination={{
+              clickable: true,
+            }}
+            breakpoints={{
+              640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 4,
+                spaceBetween: 50,
+              },
+            }}
+            modules={[Pagination]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={shoes1} alt="card news image 1" />
+                </div>
+                <div className="swiper-description">
+                  <div>
+                    <h3>신발제작</h3>
+                    <p>
+                      신발라스트에서 갑피부분을 패턴화 하는 방법을 체계적으로
+                      알고 있으며 이를 활용하여 다양한 구조의 디자인을 구현할 수
+                      있습니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={shoes2} alt="card news image 2" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={shoes3} alt="card news image 3" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={shoes4} alt="card news image 31" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={shoes5} alt="card news image 4" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={shoes6} alt="card news image 5" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={shoes7} alt="card news image 6" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={shoes8} alt="card news image 7" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={shoes9} alt="card news image 8" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </section>
+        {/* ---- SECTION CARD NEWS ---- */}
+        <section
+          id="section-card-news"
+          data-aos="fade-right"
+          data-aos-duration="3000"
+        >
+          <h1 className="txt-40">Rhino works</h1>
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={10}
+            pagination={{
+              clickable: true,
+            }}
+            breakpoints={{
+              640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 4,
+                spaceBetween: 50,
+              },
+            }}
+            modules={[Pagination]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={rhino1} alt="card news image 1" />
+                </div>
+                <div className="swiper-description">
+                  <div>
+                    <h3>Rhino 3D</h3>
+                    <p>
+                      창신INC에서 필요한 Rhino 3D프로그램을 지원기간 동안 학습해
+                      보았습니다. 컴퓨터 개발 경력을 활용하여 파라메트릭 툴을
+                      회사 시스템에 맞게 학습할 준비가 되어있습니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={rhino2} alt="card news image 2" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </section>
+        {/* ---- SECTION CARD NEWS ---- */}
+        <section
+          id="section-card-news"
+          data-aos="fade-right"
+          data-aos-duration="3000"
+        >
+          <h1 className="txt-40">CAD works</h1>
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={10}
+            pagination={{
+              clickable: true,
+            }}
+            breakpoints={{
+              640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 4,
+                spaceBetween: 50,
+              },
+            }}
+            modules={[Pagination]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={cad1} alt="card news image 1" />
+                </div>
+                <div className="swiper-description">
+                  <div>
+                    <h3>CAD 작업물</h3>
+                    <p>
+                      신발 CAD작업 능력을 갖고 있어 다양한 컴퓨터그래픽작업에
+                      활용이 가능합니다.
+                    </p>
+                  </div>
+                  <ul className="list-icon">
+                    <li>
+                      <img src={illustratorIcon} alt="illustrator icon image" />
+                    </li>
+                    <li>
+                      <img src={photoshopIcon} alt="photoshop icon image" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={cad2} alt="card news image 2" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={cad3} alt="card news image 3" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={cad4} alt="card news image 31" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={cad5} alt="card news image 4" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={cad6} alt="card news image 5" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={cad7} alt="card news image 6" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={cad8} alt="card news image 7" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={cad9} alt="card news image 8" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={cad10} alt="card news image 9" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={cad11} alt="card news image 10" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </section>
         <section
           id="section-video-project"
           data-aos="fade-right"
           data-aos-duration="3000"
         >
           <h1 className="txt-40">Video works</h1>
+          <p>
+            컴퓨터 프로그램을 잘 다루는 편입니다. 새로운 프로그램을 접하더라도
+            끈기있게 학습하여 업무를 수행할 수 있습니다.
+          </p>
           <Swiper
             slidesPerView={1}
             spaceBetween={10}
