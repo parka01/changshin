@@ -235,7 +235,9 @@ function App() {
           data-aos="fade-right"
           data-aos-duration="3000"
         >
-          <h1 className="txt-40">Shoes works</h1>
+          <div className="margin-block">
+            <h1 className="txt-40">Shoes works</h1>
+          </div>
           <Swiper
             slidesPerView={1}
             spaceBetween={10}
@@ -348,7 +350,9 @@ function App() {
           data-aos="fade-right"
           data-aos-duration="3000"
         >
-          <h1 className="txt-40">Rhino works</h1>
+          <div className="margin-block">
+            <h1 className="txt-40">Rhino works</h1>
+          </div>
           <Swiper
             slidesPerView={1}
             spaceBetween={10}
@@ -405,7 +409,9 @@ function App() {
           data-aos="fade-right"
           data-aos-duration="3000"
         >
-          <h1 className="txt-40">CAD works</h1>
+          <div className="margin-block">
+            <h1 className="txt-40">CAD works</h1>
+          </div>
           <Swiper
             slidesPerView={1}
             spaceBetween={10}
@@ -540,7 +546,9 @@ function App() {
           data-aos="fade-right"
           data-aos-duration="3000"
         >
-          <h1 className="txt-40">Video works</h1>
+          <div className="margin-block">
+            <h1 className="txt-40">Video works</h1>
+          </div>
           <p>
             컴퓨터 프로그램을 잘 다루는 편입니다. 새로운 프로그램을 접하더라도
             끈기있게 학습하여 업무를 수행할 수 있습니다.
@@ -730,6 +738,46 @@ function App() {
             </SwiperSlide>
           </Swiper>
         </section>
+        <div className="margin-block">
+          <h1>AI Work</h1>
+          <p>
+            시대 흐름에 맞게 AI활용 능력을 갖추고 있습니다. 아래는 AI와
+            프로그래밍 기술을 활용하여 제작한 웹사이트입니다.
+          </p>
+        </div>
+
+        <div
+          className="brand-identity  box-flex col-reverse"
+          data-aos="fade-left"
+          data-aos-duration="3000"
+        >
+          <div className="box-flex box-glass col media-info">
+            <div>
+              <span className="label-blue">반응형</span>Website
+            </div>
+            <h1>화장품 브랜드 'newB.tria'</h1>
+            <p>
+              newB.tria의 정체성을 담은 브랜드 아이덴티티 작업을 기반으로 만든
+              웹사이트입니다. <br />
+              플로깅 행사, 학생증 인증 행사 등 다양한 행사는 물론 통신사와
+              결합한 혜택도 제공하고 있습니다.
+              <br />
+              어떤 환경에서도 완벽하게 상호작용적인 UI/UX를 경험할 수 있도록{' '}
+              <b>반응형</b>으로 제작하였습니다.
+            </p>
+            <a
+              href="https://parka01.github.io/portfolio_no.01"
+              target="_blank"
+              className="btn-view"
+            >
+              View WEB site
+              <span className="arrow-button">→</span>
+            </a>
+          </div>
+          <div className="box-flex media">
+            <video src="./videos/media_pacade.mp4" autoPlay muted loop></video>
+          </div>
+        </div>
       </section>
       <section id="contact">
         <section id="section-contact">
