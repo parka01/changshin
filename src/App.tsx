@@ -546,7 +546,79 @@ function App() {
           </Swiper>
         </section>
         {/* ---- SECTION CARD NEWS ---- */}
-
+        <section
+          id="section-card-news"
+          data-aos="fade-right"
+          data-aos-duration="3000"
+        >
+          <div className="margin-block">
+            <h1 className="txt-40">해외 근무경험</h1>
+          </div>
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={10}
+            pagination={{
+              clickable: true,
+            }}
+            breakpoints={{
+              640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 4,
+                spaceBetween: 50,
+              },
+            }}
+            modules={[Pagination]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={work1} alt="card news image 1" />
+                </div>
+                <div className="swiper-description">
+                  <div>
+                    <h3>발표능력</h3>
+                    <p>
+                      FFANNY에 두번 참석하여 고객사 대상으로 제품에 대해
+                      소개하였습니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={work2} alt="card news image 2" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={work3} alt="card news image 2" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={work4} alt="card news image 2" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </section>
         <section
           id="section-video-project"
           data-aos="fade-right"
