@@ -387,6 +387,7 @@ header {
   .brand-identity.col-reverse {
     display: flex;
     flex-direction: column-reverse;
+    margin-bottom: 100px;
   }
 
   .half {
