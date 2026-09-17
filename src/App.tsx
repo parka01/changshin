@@ -54,7 +54,12 @@ function App() {
     <main id="wrap-main">
       <div id="background"></div>
       <header>
-        <div className="logo" data-aos="fade-up" data-aos-duration="2000">
+        <div
+          className="logo"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-mirror="true"
+        >
           <img src={logo} alt="logo" title="logo" />
         </div>
         <nav>
@@ -72,7 +77,12 @@ function App() {
         </nav>
       </header>
       <section id="profile">
-        <div className="greeting" data-aos="fade-up" data-aos-duration="2000">
+        <div
+          className="greeting"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-mirror="true"
+        >
           <h1>
             안녕하세요,
             <br />
