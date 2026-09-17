@@ -779,9 +779,7 @@ function App() {
               </g>
             </svg>
           </div>
-          <a href="mailto:ahyoungpark0@gmail.com" className="btn-contact">
-            Contact
-          </a>
+          Email: ahyoungpark0@gmail.com
         </section>
       </section>
     </main>

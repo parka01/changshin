@@ -242,7 +242,7 @@ header {
   display: flex;
   flex-direction: column;
   padding: 80px 50px;
-  background: linear-gradient(#ffffffba 0% 1%, #d3a1ffb3 50%);
+  background: linear-gradient(#ffffffba 0% 1%, #d3a1ff 50%);
   text-align: center;
   align-items: center;
 
