@@ -1,3 +1,4 @@
+/* -------- BASIC SETTING CSS -------- */
 @font-face {
   font-family: handwrite;
   src: url(./assets/fonts/Cookie-Regular.ttf);
@@ -35,11 +36,29 @@ ul {
 p {
   color: #fff;
 }
+
+/* -------- COMPONENT CSS -------- */
 .line-break {
   height: 1px;
   background: #ffffff2c;
   margin-block: 1rem;
 }
+
+/* -------- KEYFRAMES CSS -------- */
+@keyframes write {
+  0% {
+    stroke-dashoffset: 3026.421875;
+  }
+
+  80% {
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
 header {
   display: flex;
   flex-direction: column;
