@@ -43,6 +43,7 @@ import rhino2 from './assets/images/rhino2.png';
 import work1 from './assets/images/work1.png';
 import work2 from './assets/images/work2.png';
 import work3 from './assets/images/work3.png';
+import clo1 from './assets/images/clo3d1.png';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -442,6 +443,144 @@ function App() {
               <div className="swiper-item">
                 <div className="swiper-cardnews">
                   <img src={cad1} alt="card news image 1" />
+                </div>
+                <div className="swiper-description">
+                  <div>
+                    <h3>CAD 작업물</h3>
+                    <p>
+                      신발 CAD작업 능력을 갖고 있어 다양한 컴퓨터그래픽작업에
+                      활용이 가능합니다.
+                    </p>
+                  </div>
+                  <ul className="list-icon">
+                    <li>
+                      <img src={illustratorIcon} alt="illustrator icon image" />
+                    </li>
+                    <li>
+                      <img src={photoshopIcon} alt="photoshop icon image" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={cad2} alt="card news image 2" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={cad3} alt="card news image 3" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={cad4} alt="card news image 31" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={cad5} alt="card news image 4" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={cad6} alt="card news image 5" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={cad7} alt="card news image 6" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={cad8} alt="card news image 7" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={cad9} alt="card news image 8" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={cad10} alt="card news image 9" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={cad11} alt="card news image 10" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </section>
+        {/* ---- SECTION CARD NEWS ---- */}
+        <section
+          id="section-card-news"
+          data-aos="fade-right"
+          data-aos-duration="3000"
+        >
+          <div className="margin-block">
+            <h1 className="txt-40">CLO3D works</h1>
+          </div>
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={10}
+            pagination={{
+              clickable: true,
+            }}
+            breakpoints={{
+              640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 4,
+                spaceBetween: 50,
+              },
+            }}
+            modules={[Pagination]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={clo1} alt="card news image 1" />
                 </div>
                 <div className="swiper-description">
                   <div>
