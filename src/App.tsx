@@ -44,6 +44,18 @@ import work1 from './assets/images/work1.png';
 import work2 from './assets/images/work2.png';
 import work3 from './assets/images/work3.png';
 import clo1 from './assets/images/clo3d1.png';
+import clo2 from './assets/images/clo3d2.png';
+import clo3 from './assets/images/clo3d3.png';
+import clo4 from './assets/images/clo3d4.png';
+import clo5 from './assets/images/clo3d5.png';
+import clo6 from './assets/images/clo3d6.png';
+import clo7 from './assets/images/clo3d7.png';
+import clo8 from './assets/images/clo3d8.png';
+import clo9 from './assets/images/clo3d9.png';
+import clo10 from './assets/images/clo3d10.png';
+import clo11 from './assets/images/clo3d11.png';
+import clo12 from './assets/images/clo3d12.png';
+import clo13 from './assets/images/clo3d13.png';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -545,14 +557,14 @@ function App() {
             </SwiperSlide>
           </Swiper>
         </section>
-        {/* ---- SECTION CARD NEWS ---- */}
+        {/* ---- SECTION CLO3D ---- */}
         <section
           id="section-card-news"
           data-aos="fade-right"
           data-aos-duration="3000"
         >
           <div className="margin-block">
-            <h1 className="txt-40">CLO3D works</h1>
+            <h1 className="txt-40">3D Pattern works</h1>
           </div>
           <Swiper
             slidesPerView={1}
@@ -584,27 +596,18 @@ function App() {
                 </div>
                 <div className="swiper-description">
                   <div>
-                    <h3>CAD 작업물</h3>
+                    <h3>CLO3D Pattern working</h3>
                     <p>
-                      신발 CAD작업 능력을 갖고 있어 다양한 컴퓨터그래픽작업에
-                      활용이 가능합니다.
+                      CLO3D프로그램을 이용한 패턴작업입니다.
                     </p>
                   </div>
-                  <ul className="list-icon">
-                    <li>
-                      <img src={illustratorIcon} alt="illustrator icon image" />
-                    </li>
-                    <li>
-                      <img src={photoshopIcon} alt="photoshop icon image" />
-                    </li>
-                  </ul>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="swiper-item">
                 <div className="swiper-cardnews">
-                  <img src={cad2} alt="card news image 2" />
+                  <img src={clo2} alt="card news image 2" />
                 </div>
                 <div className="swiper-description"></div>
               </div>
@@ -612,7 +615,7 @@ function App() {
             <SwiperSlide>
               <div className="swiper-item">
                 <div className="swiper-cardnews">
-                  <img src={cad3} alt="card news image 3" />
+                  <img src={clo3} alt="card news image 3" />
                 </div>
                 <div className="swiper-description"></div>
               </div>
@@ -620,7 +623,7 @@ function App() {
             <SwiperSlide>
               <div className="swiper-item">
                 <div className="swiper-cardnews">
-                  <img src={cad4} alt="card news image 31" />
+                  <img src={clo4} alt="card news image 31" />
                 </div>
                 <div className="swiper-description"></div>
               </div>
@@ -628,7 +631,7 @@ function App() {
             <SwiperSlide>
               <div className="swiper-item">
                 <div className="swiper-cardnews">
-                  <img src={cad5} alt="card news image 4" />
+                  <img src={clo5} alt="card news image 4" />
                 </div>
                 <div className="swiper-description"></div>
               </div>
@@ -636,7 +639,7 @@ function App() {
             <SwiperSlide>
               <div className="swiper-item">
                 <div className="swiper-cardnews">
-                  <img src={cad6} alt="card news image 5" />
+                  <img src={clo6} alt="card news image 5" />
                 </div>
                 <div className="swiper-description"></div>
               </div>
@@ -644,7 +647,7 @@ function App() {
             <SwiperSlide>
               <div className="swiper-item">
                 <div className="swiper-cardnews">
-                  <img src={cad7} alt="card news image 6" />
+                  <img src={clo7} alt="card news image 6" />
                 </div>
                 <div className="swiper-description"></div>
               </div>
@@ -652,7 +655,7 @@ function App() {
             <SwiperSlide>
               <div className="swiper-item">
                 <div className="swiper-cardnews">
-                  <img src={cad8} alt="card news image 7" />
+                  <img src={clo8} alt="card news image 7" />
                 </div>
                 <div className="swiper-description"></div>
               </div>
@@ -660,7 +663,7 @@ function App() {
             <SwiperSlide>
               <div className="swiper-item">
                 <div className="swiper-cardnews">
-                  <img src={cad9} alt="card news image 8" />
+                  <img src={clo9} alt="card news image 8" />
                 </div>
                 <div className="swiper-description"></div>
               </div>
@@ -668,7 +671,7 @@ function App() {
             <SwiperSlide>
               <div className="swiper-item">
                 <div className="swiper-cardnews">
-                  <img src={cad10} alt="card news image 9" />
+                  <img src={clo10} alt="card news image 9" />
                 </div>
                 <div className="swiper-description"></div>
               </div>
@@ -676,7 +679,23 @@ function App() {
             <SwiperSlide>
               <div className="swiper-item">
                 <div className="swiper-cardnews">
-                  <img src={cad11} alt="card news image 10" />
+                  <img src={clo11} alt="card news image 10" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={clo12} alt="card news image 10" />
+                </div>
+                <div className="swiper-description"></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-item">
+                <div className="swiper-cardnews">
+                  <img src={clo13} alt="card news image 10" />
                 </div>
                 <div className="swiper-description"></div>
               </div>
