@@ -218,6 +218,19 @@ function App() {
               </p>
             </div>
           </div>
+           <div className="line-break"></div>
+          <div className="history">
+            <div className="date">
+              <h3>2015</h3>
+            </div>
+            <div className="content">
+              <h3>You and Who</h3>
+              <p>
+                미국 뉴욕의 티셔츠 회사에서 인턴십을 하였습니다. <br />
+                <br />티셔츠 라벨링 작업, 모델활동, 물류 관리, 재고 현황 파악 업무를 하였습니다.
+              </p>
+            </div>
+          </div>
           <h2>학력사항</h2>
           <div className="history">
             <div className="date">
